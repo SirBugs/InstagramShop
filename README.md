@@ -32,3 +32,13 @@ $ python Insta.py
   - Path list [user:Pass]
   - requests module
 
+### Choose a tool:
+You need to choose a tool [like || coment || follow || report].
+
+### The file path
+The file path emails have to be like:
+```bash
+username:123456789
+username:123456789
+username:123456789
+```
