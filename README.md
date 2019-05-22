@@ -60,7 +60,7 @@ Enter the full url for the post(like/comment) or profile(follow/report)
 [A]:  Check Your Emails Path. 
 
 # Come Out & Updates
-**22/5/2019:** First coe out of the script (Beta) V1.0.
+**22/5/2019:** First coe out of the script (Beta) V1.0. 😃
 
 # Contacting
 **Facebook:** https://facebook.com/SIRBUGS  :point_left:  
