@@ -23,4 +23,12 @@ $ pip install requests
 ```bash
 $ python Insta.py
 ```
+
 ![](./img.png)
+
+# How to use
+- Requirements
+  - Fast internet connection
+  - Path list [user:Pass]
+  - requests module
+
