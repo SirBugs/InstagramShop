@@ -79,8 +79,9 @@ def cookiesmaker():
 	ds_user_id = cookies.split('ds_user_id=')[1].split(';')[0]
 	sessionid = cookies.split('sessionid=')[1].split(';')[0]
 	#// a = cookies.split('')[1].split('')[0]
+	f = requests.get('https://ipapi.co/');f = f.content; ip = f.split('class="key">IP Address</td><td class="ipval" data-clipboard-text="')[1].split('"')[0]
 	global cookie
-	cookie = 'ig_cb=1; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; shbid='+shbid+'; shbts='+shbts+'; ds_user_id='+ds_user_id+'; sessionid='+sessionid+'; rur='+rur+'; csrftoken='+csrftoken+'; urlgen="{\"51.79.26.36\": 16276}:1hTTb8:JUuqGp1eePAuguP9kub11kToZlk"'
+	cookie = 'ig_cb=1; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; shbid='+shbid+'; shbts='+shbts+'; ds_user_id='+ds_user_id+'; sessionid='+sessionid+'; rur='+rur+'; csrftoken='+csrftoken+'; urlgen="{\"'+ip+'\": 16276}:1hTTb8:JUuqGp1eePAuguP9kub11kToZlk"'
 	#// print cookie
 	global headers
 	headers = {
