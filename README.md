@@ -47,3 +47,13 @@ Enter the full url for the post(like/comment) or profile(follow/report)
 - https://www.instagram.com/s1rbugs/ [✔️]
 - s1rbugs [❌]
 
+# FAQ
+[❓]: Which python version do i need?
+[A]:  Python 2.7  
+
+[❓]: Im not getting any Results?
+[A]:  Check Your Internet Connection
+
+[❓]: The Script Is Spamming (Login Failed)?
+[A]:  Check Your Emails Path. 
+
