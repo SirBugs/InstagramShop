@@ -11,7 +11,7 @@ Instagram Toolkit For Auto [Like/Com/Follow/Report] With Emails.
 >>>  \ \__,_|___|_| \_|____/ |_/_/   \_\   |____/|_| |_|\___/|_|     <<<
 >>>   \____/                                                         <<<
 >>> ================================================================ <<<
->>> [DEV] : SIRBUGS (Fares Walid)                                 	  <<<
+>>> [DEV] : SIRBUGS (Fares Walid)                                 <<<
 >>> [GitHub] : https://www.github.com/sirbugs                        <<<
 >>> [Version] : 1.0.V                                                <<<
 >>> ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <<<
