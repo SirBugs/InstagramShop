@@ -33,7 +33,8 @@ $ python Insta.py
   - requests module
 
 ### Choose a tool:
-You need to choose a tool [like || coment || follow || report].
+- You need to choose a tool [like || coment || follow || report].
+- Choose Nums Only [Like:1 || Comment:2 || Follow:3 || Report:4].
 
 ### The file path:
 The file path emails have to be like:
