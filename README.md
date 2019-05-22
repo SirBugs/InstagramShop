@@ -60,6 +60,6 @@ Enter the full url for the post(like/comment) or profile(follow/report)
 [A]:  Check Your Emails Path. 
 
 # Contacting
-**Facebook: ** https://facebook.com/SIRBUGS  :point_left:  
+**Facebook:** https://facebook.com/SIRBUGS  :point_left:  
 Made with ❤️ in Egypt
 Programmed By SIRBUGS ❤️
