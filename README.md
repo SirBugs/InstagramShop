@@ -48,12 +48,12 @@ Enter the full url for the post(like/comment) or profile(follow/report)
 - s1rbugs [❌]
 
 # FAQ
-[❓]: Which python version do i need?
+[❓]: Which python version do i need?     
 [A]:  Python 2.7  
 
-[❓]: Im not getting any Results?
+[❓]: Im not getting any Results?     
 [A]:  Check Your Internet Connection
 
-[❓]: The Script Is Spamming (Login Failed)?
+[❓]: The Script Is Spamming (Login Failed)?     
 [A]:  Check Your Emails Path. 
 
