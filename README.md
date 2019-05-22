@@ -16,3 +16,10 @@ Instagram Toolkit For Auto [Like/Com/Follow/Report] With Emails.
 >>> [Version] : 1.0.V                                                <<<
 >>> ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <<<
 ```
+
+```bash
+$ pip install requests
+```
+```bash
+$ python Insta.py
+```
