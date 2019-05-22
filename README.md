@@ -37,7 +37,7 @@ $ python Insta.py
 - Choose Nums Only [Like:1 || Comment:2 || Follow:3 || Report:4].
 
 ### The file path:
-The file path emails have to be like:
+- The file path emails have to be like:
 ```bash
 username:123456789
 username:123456789
