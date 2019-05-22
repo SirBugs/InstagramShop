@@ -42,10 +42,12 @@ username:123456789
 username:123456789
 username:123456789
 ```
-### The url Entering:
+### The urls Entering:
 Enter the full url for the post(like/comment) or profile(follow/report)
 - https://www.instagram.com/s1rbugs/ [✔️]
 - s1rbugs [❌]
+- https://www.instagram.com/p/BnCH7cgFVvZ/ [✔️]
+- BnCH7cgFVvZ/ [❌]
 
 # FAQ
 [❓]: Which python version do i need?     
