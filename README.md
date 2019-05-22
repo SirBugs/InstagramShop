@@ -35,10 +35,15 @@ $ python Insta.py
 ### Choose a tool:
 You need to choose a tool [like || coment || follow || report].
 
-### The file path
+### The file path:
 The file path emails have to be like:
 ```bash
 username:123456789
 username:123456789
 username:123456789
 ```
+### the url:
+Enter the full url for the post(like/comment) or profile(follow/report)
+- https://www.instagram.com/s1rbugs/ [✔️]
+- s1rbugs [❌]
+
