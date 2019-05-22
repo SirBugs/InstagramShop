@@ -42,7 +42,7 @@ username:123456789
 username:123456789
 username:123456789
 ```
-### the url:
+### The url Entering:
 Enter the full url for the post(like/comment) or profile(follow/report)
 - https://www.instagram.com/s1rbugs/ [✔️]
 - s1rbugs [❌]
