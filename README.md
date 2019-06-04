@@ -61,7 +61,7 @@ username:123456789
 [A]:  Check Your Emails Path. 
 
 # Come Out & Updates
-**22/5/2019:** First coe out of the script (Beta) V1.0. 😃
+**22/5/2019:** First come out of the script (Beta) V1.0. 😃
 
 # Contacting
 **Facebook:** https://facebook.com/SIRBUGS  :point_left:  
