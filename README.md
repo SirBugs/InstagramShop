@@ -62,6 +62,7 @@ username:123456789
 
 # Come Out & Updates
 **22/05/2019:** First come out of the script (Beta) V1.0. 😃
+
 **04/06/2019:** Updates: Auto caputring for random X-CSRF-TOKEN. 😃
 
 # Contacting
