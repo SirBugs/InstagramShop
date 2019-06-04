@@ -35,7 +35,9 @@ def random_app_id():
 # //Insta AJAX
 def random_AJAX():
 	return ''.join(random.choice(string.digits + string.ascii_lowercase) for _ in range(12))
-	
+
+token = requests.get('https://www.instagram.com/accounts/login/?source=auth_switcher').content.split('csrf_token":"')[1].split('"')[0]
+
 # //Login Def.
 def log(u, p):
 	global r ;global acc_id;global validation
@@ -47,10 +49,10 @@ def log(u, p):
 		'Accept':'*/*',
 		'X-Requested-With':'XMLHttpRequest',
 		'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36',
-		'X-CSRFToken':'QyVGYTNdyRbJ8UZ2Pmvcae4L10sfzIkm',
+		'X-CSRFToken':token,
 		'X-IG-App-ID':random_app_id(),
 		'Referer':'https://www.instagram.com/accounts/login/?source=auth_switcher',
-		'Cookie':'ig_cb=1; rur=FRC; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; csrftoken=QyVGYTNdyRbJ8UZ2Pmvcae4L10sfzIkm'
+		'Cookie':'ig_cb=1; rur=FRC; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; csrftoken='+token
 	}
 	r = requests.post('https://www.instagram.com/accounts/login/ajax/', data=data, headers=headers)
 	src = r.content
