@@ -61,7 +61,8 @@ username:123456789
 [A]:  Check Your Emails Path. 
 
 # Come Out & Updates
-**22/5/2019:** First come out of the script (Beta) V1.0. 😃
+**22/05/2019:** First come out of the script (Beta) V1.0. 😃
+**04/06/2019:** Updates: Auto caputring for random X-CSRF-TOKEN. 😃
 
 # Contacting
 **Facebook:** https://facebook.com/SIRBUGS  :point_left:  
