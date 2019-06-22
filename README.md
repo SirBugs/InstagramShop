@@ -65,6 +65,8 @@ username:123456789
 
 **04/06/2019:** Updates: Auto caputring for random X-CSRF-TOKEN V1.1. 😃
 
+**22/06/2019:** Updates: Fixed report tool, Fixed cookies arguments errors V1.2. 😃
+
 # Contacting
 **Facebook:** https://facebook.com/SIRBUGS  :point_left:  
 Made with ❤️ in Egypt
