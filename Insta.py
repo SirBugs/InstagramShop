@@ -21,7 +21,6 @@ bugs = '''
 >>> [GitHub] : https://www.github.com/sirbugs			     <<<
 >>> [Version] : 1.1.V                                                <<<
 >>> ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <<<
-
 '''
 #################################
 # ( -- PROGRAMMED BY @BUGS -- ) #
@@ -74,8 +73,8 @@ def cookiesmaker():
 	#//print r.headers
 	cookies = r.headers['Set-Cookie']
 
-	shbid = cookies.split('shbid=')[1].split(';')[0]
-	shbts = cookies.split('shbts=')[1].split(';')[0]
+	# //shbid = cookies.split('shbid=')[1].split(';')[0]
+	# //shbts = cookies.split('shbts=')[1].split(';')[0]
 	rur = cookies.split('rur=')[1].split(';')[0]
 	csrftoken = cookies.split('csrftoken=')[1].split(';')[0]
 	ds_user_id = cookies.split('ds_user_id=')[1].split(';')[0]
@@ -83,7 +82,7 @@ def cookiesmaker():
 	#// a = cookies.split('')[1].split('')[0]
 	f = requests.get('https://ipapi.co/');f = f.content; ip = f.split('class="key">IP Address</td><td class="ipval" data-clipboard-text="')[1].split('"')[0]
 	global cookie
-	cookie = 'ig_cb=1; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; shbid='+shbid+'; shbts='+shbts+'; ds_user_id='+ds_user_id+'; sessionid='+sessionid+'; rur='+rur+'; csrftoken='+csrftoken+'; urlgen="{\"'+ip+'\": 16276}:1hTTb8:JUuqGp1eePAuguP9kub11kToZlk"'
+	cookie = 'ig_cb=1; mid=XOSRsAALAAERbKhySt9i8hXiCJUJ; shbid=7309; shbts=1561068037.9766755; ds_user_id='+acc_id+'; sessionid='+sessionid+'; rur='+rur+'; csrftoken='+csrftoken+'; urlgen="{\"'+ip+'\": 16276}:1hTTb8:JUuqGp1eePAuguP9kub11kToZlk"'
 	#// print cookie
 	global headers
 	headers = {
@@ -160,9 +159,9 @@ def report(item):
 		q = requests.get(item); q = q.content; item_id = q.split('logging_page_id":"profilePage_')[1].split('"')[0]
 		
 		data = 'source_name=profile&reason_id=1'
-		x = requests.post('https://www.instagram.com/web/users/'+item_id+'/report/', data=data, headers=headers)
-		xsrc = x.content
-		# //print xsrc
+		x = requests.post('https://www.instagram.com/users/'+item_id+'/report/', data=data, headers=headers)
+		# //xsrc = x.content
+		print xsrc
 		if '"status": "ok"' in xsrc:
 			print '[$] Reported ['+item_id+'] From ACC ['+acc_id+'].\n'
 		else:
@@ -170,7 +169,6 @@ def report(item):
 			pass
 	except:
 		pass
-
 
 
 # /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ #
@@ -185,7 +183,7 @@ def start():
 		print ''
 		for i in path:
 			line = i.strip()
-			u, p = i.split(':')
+			u, p = line.split(':')
 			random_app_id();log(u,p)
 			if validation == 'TRUE':
 				cookiesmaker();like(item)
@@ -199,7 +197,7 @@ def start():
 		print ''
 		for i in path:
 			line = i.strip()
-			u, p = i.split(':')
+			u, p = line.split(':')
 			random_app_id();log(u,p);
 			if validation == 'TRUE':
 				cookiesmaker();comment(item, msg)
@@ -212,7 +210,7 @@ def start():
 		print ''
 		for i in path:
 			line = i.strip()
-			u, p = i.split(':')
+			u, p = line.split(':')
 			random_app_id();log(u,p);	
 			if validation == 'TRUE':
 				cookiesmaker();follow(item)
@@ -225,7 +223,7 @@ def start():
 		print ''
 		for i in path:
 			line = i.strip()
-			u, p = i.split(':')
+			u, p = line.split(':')
 			random_app_id();log(u,p)
 			if validation == 'TRUE':
 				cookiesmaker();report(item)
